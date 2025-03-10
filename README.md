@@ -1,4 +1,4 @@
- # 🌍 Language-Translation-App 
+ # 🌍 Language Translation App 
 # Steps to follow to run the project
 ### 1️⃣ Install React with Vite  
 Run the following command to create a new React + Vite project in your system:  
