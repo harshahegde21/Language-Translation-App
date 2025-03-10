@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-card {
+    margin: auto;
+    height: 100vh;
+    width: 80vh;
+    background-color:rgb(238, 238, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.translate-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bef-translate-div, .after-translate-div {
+    width: 100%;
+    padding: 2vh;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.from-to {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1vh;
+}
+
+.selection-main {
+    height: 4vh;
+    width: 90%;
+    margin-bottom: 1vh;
+    font-size: large;
+    border-radius: 1vh;
+}
+.after-translate-div{
+    margin-top: -2vh;
+}
+
+.text-area {
+    height: 20vh;
+    width: 70vh;
+    padding: 1vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor:text;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bolder;
+}
+
+.logos {
+    height: 5vh;
+    margin: 2vh 0;
+}
+.trans-submit{
+    height: 10vh;
+    width: 20vh;
+    background-color: rgb(100, 100, 243);
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.translate-submit{
+    height: 24vh;
+    width: 16vh;
+    border-radius: 1vh;
+    background-color: rgb(84, 84, 238);
+    color: white;
+    font-size: large;
+    margin-right: 3vh;
+    cursor: pointer;
+    margin-top: -3vh;
+}
+.translate-submit:hover{
+    background-color: rgb(32, 32, 238);
+}
+.copy-btn{
+    height: 4vh;
+    width: 8vh;
+    background-color: #007BFF;
+    border-radius: 1vh;
+    margin-left: 62vh;
+    color: white;
+}
